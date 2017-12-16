@@ -1,7 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="675b2d23-f25c-49a8-b922-1a05212409df" name="Default" comment="" />
+    <list default="true" id="675b2d23-f25c-49a8-b922-1a05212409df" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/complete/gradle.properties" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/complete/client/config/dev.env.js" afterPath="$PROJECT_DIR$/complete/client/config/dev.env.js" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
+      <change beforePath="$PROJECT_DIR$/initial/client/.babelrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/.eslintignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/.eslintrc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/.postcssrc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/build.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/check-versions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/logo.png" afterPath="$PROJECT_DIR$/src/main/resources/img/vue.png" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/vue-loader.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/webpack.base.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/webpack.dev.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/webpack.prod.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/build/webpack.test.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/config/dev.env.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/config/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/config/prod.env.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/config/test.env.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/App.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/css/errors.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/css/grails.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/css/mobile.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/grails.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/apple-touch-icon-retina.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/apple-touch-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/grails-cupsonly-logo-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/grails.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/database_add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/database_delete.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/database_edit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/database_save.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/database_table.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/exclamation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/house.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/information.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/shadow.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/sorted_asc.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/skin/sorted_desc.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/images/spinner.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/assets/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/components/Welcome.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/src/router/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/test/e2e/custom-assertions/elementCount.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/test/e2e/nightwatch.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/test/e2e/runner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/test/e2e/specs/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/test/unit/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/test/unit/jest.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/test/unit/setup.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/client/test/unit/specs/Welcome.spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/gradlew" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/gradlew.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/gradle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/conf/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/conf/logback.groovy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/conf/spring/resources.groovy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/controllers/using/the/vue/profile/ApplicationController.groovy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/controllers/using/the/vue/profile/UrlMappings.groovy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_cs_CZ.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_da.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_de.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_es.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_fr.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_it.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_ja.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_nb.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_nl.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_pl.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_pt_BR.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_pt_PT.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_ru.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_sv.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_th.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/i18n/messages_zh_CN.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/init/using/the/vue/profile/Application.groovy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/init/using/the/vue/profile/BootStrap.groovy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/views/application/index.gson" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/views/error.gson" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/views/errors/_errors.gson" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/views/notFound.gson" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-app/views/object/_object.gson" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grails-wrapper.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grailsw" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/server/grailsw.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initial/settings.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/docs/guide/generateTheApp.adoc" afterPath="$PROJECT_DIR$/src/main/docs/guide/generateTheApp.adoc" />
+      <change beforePath="$PROJECT_DIR$/src/main/docs/guide/gettingStarted.adoc" afterPath="$PROJECT_DIR$/src/main/docs/guide/gettingStarted.adoc" />
+      <change beforePath="$PROJECT_DIR$/src/main/docs/guide/howto.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/docs/guide/runningTheApp.adoc" afterPath="$PROJECT_DIR$/src/main/docs/guide/runningTheApp.adoc" />
+      <change beforePath="$PROJECT_DIR$/src/main/docs/guide/writingTheApp.adoc" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/complete/.gradle/" />
@@ -20,12 +135,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="writingTheApp.adoc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/docs/guide/writingTheApp.adoc">
+      <file leaf-file-name="generateTheApp.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/docs/guide/generateTheApp.adoc">
           <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="158">
+                <caret line="40" column="63" lean-forward="false" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -33,20 +148,113 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generateTheApp.adoc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/docs/guide/generateTheApp.adoc">
+      <file leaf-file-name="toc.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/docs/guide/toc.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gettingStarted.adoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/docs/guide/gettingStarted.adoc">
           <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="572">
-                <caret line="51" column="53" lean-forward="false" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="53" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runningTheApp.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/docs/guide/runningTheApp.adoc">
+          <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="310">
+                <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complete/client/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complete/client/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complete/client/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Welcome.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complete/client/src/components/Welcome.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dev.env.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complete/client/config/dev.env.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SERVER_</find>
+      <find>React</find>
+      <find>react</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -256,7 +464,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="9055458038000" />
+        <entry key="$PROJECT_DIR$" value="9055468201000" />
+        <entry key="$PROJECT_DIR$/gradle.properties" value="1747916068" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -387,7 +596,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/complete/gradle.properties" />
+        <option value="$PROJECT_DIR$/src/main/docs/guide/gettingStarted.adoc" />
+        <option value="$PROJECT_DIR$/complete/client/config/dev.env.js" />
         <option value="$PROJECT_DIR$/src/main/docs/guide/generateTheApp.adoc" />
+        <option value="$PROJECT_DIR$/src/main/docs/guide/runningTheApp.adoc" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
       </list>
     </option>
   </component>
@@ -398,8 +612,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="159" />
-    <option name="y" value="148" />
+    <option name="x" value="217" />
+    <option name="y" value="159" />
     <option name="width" value="1688" />
     <option name="height" value="946" />
   </component>
@@ -432,6 +646,39 @@
             <path>
               <item name="using-the-vue-profile" type="b2602c69:ProjectViewProjectNode" />
               <item name="using-the-vue-profile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="complete" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="using-the-vue-profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="using-the-vue-profile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="complete" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="using-the-vue-profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="using-the-vue-profile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="complete" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="using-the-vue-profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="using-the-vue-profile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="complete" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="using-the-vue-profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="using-the-vue-profile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="complete" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="using-the-vue-profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="using-the-vue-profile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -455,6 +702,21 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="using-the-vue-profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="using-the-vue-profile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="using-the-vue-profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="using-the-vue-profile" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -469,6 +731,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/docs/guide" />
     </key>
@@ -580,15 +845,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513446634088</updated>
-      <workItem from="1513446640710" duration="821000" />
+      <workItem from="1513446640710" duration="3797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="821000" />
+    <option name="totallyTimeSpent" value="3797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="159" y="148" width="1688" height="946" extended-state="0" />
+    <frame x="217" y="159" width="1688" height="946" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -598,13 +864,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -616,7 +883,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -642,14 +908,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/docs/guide/generateTheApp.adoc">
+    <entry file="file://$PROJECT_DIR$/complete/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete/client/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete/client/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete/client/config/test.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete/client/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete/client/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete/client/src/components/Welcome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete/client/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complete/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docs/guide/gettingStarted.adoc">
       <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="572">
-            <caret line="51" column="53" lean-forward="false" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="53" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docs/guide/generateTheApp.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="158">
+            <caret line="40" column="63" lean-forward="false" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docs/guide/toc.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docs/guide/runningTheApp.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="310">
+            <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

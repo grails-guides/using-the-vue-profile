@@ -25,7 +25,7 @@ drwxr-xr-x  8 zak  staff   272 Nov  1 13:12 server
 -rw-r--r--  1 zak  staff    26 Nov  1 13:10 settings.gradle
 ----
 
-`server` is of course our Grails application. The profile will generate a Grails app using the `rest-api` profile, which provides support for creating domain classes as restful resources as well as JSON and Markup views.
+The `server` project is our Grails application. The profile will generate a Grails app using the `rest-api` profile, which provides support for creating domain classes as restful resources, CORS enabled by default, as well as JSON and Markup views.
 
 `client` is our Vue app.
 
@@ -38,18 +38,23 @@ drwxr-xr-x   4 zak  staff    136 Nov  1 13:10 public
 drwxr-xr-x  10 zak  staff    340 Nov  1 13:10 src
 ----
 
-The `client` project structure (with the exception of `build.gradle`, which is specific to the react profile) is all courtesy of `create-react-app`, and includes an excellent README file. In short, the `src/` directory is where the React code is kept, `public/` is for public resources that you wish to make available from your React app without going through webpack’s bundling - this directory also includes a template `index.html` file which is used to generate the React app’s home page. Again, see the `create-react-app` documentation for more details.
+The `client` project structure (with the exception of `build.gradle`, which is specific to the profile) is all courtesy of Vue-CLI's `webpack` template, and includes an excellent README file. In short, the `src/` directory is where the Vue source code is kept, with subdirectories for `/components , `/assets`, and `config`.
 
+The `static/` directory is for public resources that you wish to make available from your Vue app without being bundled by webpack. There is also a root `index.html` file which is used to generate the Vue app’s home page. Again, see the http://vuejs-templates.github.io/webpack/[Vue-CLI template documentation] for more details.
 
-One significant customization of the `client` project (besides the Grails-branded UI) is the file `src/config.js`. This file is used to specify the URL of the backend, by default `http://localhost:8080`. It also obtains the current version of the React app from `package.json`.
-
+If you edit the file `config/dev.env.js`, you will see that the profile has added an additional configuration property to the template defaults:
 [source, javascript]
 ----
-import pjson from './../package.json';
+'use strict'
+const merge = require('webpack-merge')
+const prodEnv = require('./prod.env')
 
-export const SERVER_URL = 'http://localhost:8080/';
-export const CLIENT_VERSION = pjson.version;
-export const REACT_VERSION = pjson.dependencies.react;
+module.exports = merge(prodEnv, {
+  NODE_ENV: '"development"',
+  SERVER_URL: '"http://localhost:8080"' //<1>
+})
+
 ----
+<1> `SERVER_URL` points to the default address of the `server` Grails application, and is used as the base URL for REST calls from the Vue app.
 
-You may edit the contents of this file to add additional variables or to change the `SERVER_URL` to point to another backend server.
+You can change the existing configuration properties or add new ones to this file; they will apply to the "development" environment (note that the `client` environments are based on the scripts in `client/package.json`, and are not related to Grails' environments).

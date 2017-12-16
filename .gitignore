@@ -1,0 +1,6 @@
+.idea/
+build/docs
+build/resources
+build/resources.zip
+build/doc-resources
+.gradle

@@ -2,7 +2,7 @@
 grails:
     profile: org.grails.profiles:vue:1.0.0.RC1
     codegen:
-        defaultPackage: using.the.vue.profile
+        defaultPackage: demo
     spring:
         transactionManagement:
             proxies: false

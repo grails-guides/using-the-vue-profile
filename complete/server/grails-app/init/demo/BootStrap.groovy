@@ -1,4 +1,4 @@
-package using.the.vue.profile
+package demo
 
 class BootStrap {
 

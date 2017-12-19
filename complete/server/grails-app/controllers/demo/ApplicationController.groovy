@@ -1,4 +1,4 @@
-package using.the.vue.profile
+package demo
 
 import grails.core.GrailsApplication
 import grails.util.Environment

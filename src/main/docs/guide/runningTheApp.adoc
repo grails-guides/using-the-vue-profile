@@ -38,3 +38,5 @@ $ npm run build
 ----
 
 Again, please see the http://vuejs-templates.github.io/webpack/[template documentation] for more information on leveraging these scripts and the other features provided by Vue-CLI.
+
+Rember to check https://grails-profiles.github.io/vue/latest/guide/index.html[Grails Vue Profile] documentation to learn more.

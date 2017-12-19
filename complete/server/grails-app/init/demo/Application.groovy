@@ -1,4 +1,4 @@
-package using.the.vue.profile
+package demo
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

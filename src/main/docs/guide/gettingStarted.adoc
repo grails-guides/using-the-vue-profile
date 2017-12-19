@@ -1,6 +1,6 @@
 image::vue.png[Vue.js, 150, 150, role="related thumb left"]
 
-In this guide you are going to create an application using the Vue profile for Grails. This profile will generate a multi-project build, which includes a Grails application, and a https://vuejs.org/[Vue.js] front-end app that access the RESTful API provided by Grails.
+In this guide you are going to create an application using the https://grails-profiles.github.io/vue/latest/guide/index.html[Vue profile for Grails]. This profile will generate a multi-project build, which includes a Grails application, and a https://vuejs.org/[Vue.js] front-end app that access the RESTful API provided by Grails.
 
 This profile will generate two applications, `server` and `client`. `server` will be a Grails 3 application built using the `rest-api` profile, which includes support for creating domain resources, restful controllers, and JSON views.
 

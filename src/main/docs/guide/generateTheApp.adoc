@@ -40,7 +40,7 @@ drwxr-xr-x  10 zak  staff    340 Nov  1 13:10 src
 
 The `client` project structure (with the exception of `build.gradle`, which is specific to the profile) is all courtesy of Vue-CLI's `webpack` template, and includes an excellent README file. In short, the `src/` directory is where the Vue source code is kept, with subdirectories for `/components` , `/assets`, and `config`.
 
-The `static/` directory is for public resources that you wish to make available from your Vue app without being bundled by webpack. There is also a root `index.html` file which is used to generate the Vue app’s home page. Again, see the http://vuejs-templates.github.io/webpack/[Vue-CLI template documentation] for more details.
+The `static` directory is for public resources that you wish to make available from your Vue app without being bundled by webpack. There is also a root `index.html` file which is used to generate the Vue app’s home page. Again, see the http://vuejs-templates.github.io/webpack/[Vue-CLI template documentation] for more details.
 
 If you edit the file `config/dev.env.js`, you will see that the profile has added an additional configuration property to the template defaults:
 [source, javascript]

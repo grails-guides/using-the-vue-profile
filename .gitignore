@@ -4,3 +4,4 @@ build/resources
 build/resources.zip
 build/doc-resources
 .gradle
+/complete/client/yarn.lock

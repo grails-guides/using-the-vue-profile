@@ -5,3 +5,4 @@ build/resources.zip
 build/doc-resources
 .gradle
 /complete/client/yarn.lock
+.DS_Store

@@ -7,8 +7,9 @@ addons:
   chrome: stable
   firefox: latest
 before_script:
-- rm -rf target
-before_script: ./complete/runtests.sh
+  - cd complete
+  - runtests.sh
+  - cd ..
 script: ./travis-build.sh
 env:
   global:

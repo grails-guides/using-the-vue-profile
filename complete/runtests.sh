@@ -19,10 +19,6 @@ if [ $EXIT_STATUS -ne 0 ]; then
   exit $EXIT_STATUS
 fi
 
-if [ $TRAVIS == "true" ]; then
-  ./gradlew client:test --console=plain || EXIT_STATUS=$?
-fi
-
 if [ $EXIT_STATUS -ne 0 ]; then
   exit $EXIT_STATUS
 fi

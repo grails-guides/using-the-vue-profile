@@ -11,7 +11,8 @@ if [[ $EXIT_STATUS -eq 0 ]]; then
   echo "Waiting for client and server to start"
   sleep 4
   echo "Executing tests"
-  ./gradlew --rerun-tasks functional-tests:test --console=plain || EXIT_STATUS=$?
+  ./gradlew --rerun-tasks -Dgeb.env=chromeHeadless functional-tests:test --console=plain || EXIT_STATUS=$?
+  ./gradlew --rerun-tasks -Dgeb.env=firefoxHeadless functional-tests:test --console=plain || EXIT_STATUS=$?
   killall -9 java
   killall node
 fi

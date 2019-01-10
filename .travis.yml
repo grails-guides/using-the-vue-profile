@@ -3,11 +3,13 @@ cache:
   - "$HOME/.gradle"
 jdk:
 - oraclejdk8
+addons:
+  chrome: stable
+  firefox: latest
 before_script:
 - rm -rf target
-script: ""
 script:
-  - ./runtests.sh
+  - ./complete/runtests.sh
   - ./travis-build.sh
 env:
   global:

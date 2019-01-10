@@ -9,7 +9,7 @@ class HomePage extends Page {
     static at = { title.contains('Grails & Vue') }
 
     static content = {
-        controllers { $('#controllers li') }
+        controllers(wait: true) { $('#controllers li') }
     }
 
     List<String> controllerNames() {

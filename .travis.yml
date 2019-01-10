@@ -8,7 +8,7 @@ addons:
   firefox: latest
 before_script:
   - cd complete
-  - runtests.sh
+  - ./runtests.sh
   - cd ..
 script: ./travis-build.sh
 env:

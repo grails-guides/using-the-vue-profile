@@ -9,7 +9,7 @@ if [[ $EXIT_STATUS -eq 0 ]]; then
   ./gradlew bootRun -parallel > /dev/null 2>&1 &
   PID1=$!
   echo "Waiting for client and server to start"
-  sleep 4
+  sleep 20
   echo "Executing tests"
   ./gradlew --rerun-tasks -Dgeb.env=chromeHeadless functional-tests:test --console=plain || EXIT_STATUS=$?
   ./gradlew --rerun-tasks -Dgeb.env=firefoxHeadless functional-tests:test --console=plain || EXIT_STATUS=$?

@@ -6,11 +6,17 @@ jdk:
 addons:
   chrome: stable
   firefox: latest
-before_script:
-  - cd complete
-  - ./runtests.sh
-  - cd ..
-script: ./travis-build.sh
+jobs:
+  include:
+    - stage: tests
+      script: 
+        - cd complete
+        - ./runtests.sh
+        - cd ..
+    - stage: build-guide
+      script: ./travis-build.sh
+    - stage: republish-guides
+      script: ./republish-guides.sh      
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/

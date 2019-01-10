@@ -11,6 +11,13 @@ before_script:
   - ./runtests.sh
   - cd ..
 script: ./travis-build.sh
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
 env:
   global:
   - secure: sfp81JWETjvtlBtURM99cvAWYxKLOM+U0uczHSSob5m2DIEXyxy06mGuwqtOMwm+RBCkavtwKlpmQc6Va0H9M17ac9Vh55Rf/cAz+qxy7E2eZ5nYLuLFDWzK+e1JddYbVC/y/1RHg7WqqzqTjomIZVLhFgUMwhxv2Mz0wIRKkfOy1bWtvetHeDHCcidex0mYt++gcnTV1iE0ByytbZ9HdnMbqm1ju2IPlAsw0Pc5X4ZBngOZMnnXlwJ1uDRjlL+GGcNJ6DqNxfAv9BK8xZklNzJd3UsBWRNaEyYg0NI+S0zaoRkvZfdjvFwPXXFZdAH5z3hnVk7ufyhUN6XmtIN4cjGWn3kjpXyDf0MEG05+M5ZTIdOUxVl/V64v77bo8DsgJySSDBu4r8Q1Glo4se3CKIX816MhZduTBSxWT47S4uUtV98RMSj41KRl6t6DrUW2kWbQXd04TZvqLahdoC3JuJ2I+lejQk2MvUNyuiMq4Bkqn4KiuVG6mVU8Kmn7Sj0eRDsy0krnSPmddZfjnT6r7cLeo5IRYdbOcz4lHZ8u+5aNeaxpQPNUS1cBi8KzhhqFWLv2uS8I1zMlKzXNqrYiuEiIa1XGlrcFM109saK6QmeD3YTMrlguYE/t9GuF4g/OtVRVTO5dOmfDmhrdmjcqu/sxqQqELzN/M7giwh1F5BY=

@@ -6,7 +6,7 @@ import spock.lang.Requires
 
 class HomeSpec extends GebSpec {
 
-    @Requires({ Utils.available('http://localhost:8080') && Utils.available('http://localhost:3000') })
+    //@Requires({ Utils.available('http://localhost:8080') && Utils.available('http://localhost:3000') })
     def "homage shows a list of available controllers"() {
         given:
         Browser browser = new Browser()

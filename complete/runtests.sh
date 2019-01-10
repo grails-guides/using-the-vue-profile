@@ -6,7 +6,7 @@ start=`date +%s`
 
 if [[ $EXIT_STATUS -eq 0 ]]; then
   echo "Starting client and server"
-  ./gradlew bootRun -parallel > /dev/null 2>&1 &
+  ./gradlew bootRun -parallel --console=plain &
   PID1=$!
   echo "Waiting for client and server to start"
   sleep 20

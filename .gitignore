@@ -7,3 +7,6 @@ build/doc-resources
 /complete/client/yarn.lock
 .DS_Store
 *.iml
+build
+.settings
+.project

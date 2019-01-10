@@ -1,1 +1,3 @@
-include 'client', 'server'
+include 'client'
+include 'server'
+include 'functional-tests'

@@ -9,7 +9,7 @@ You can also generate your project using the http://start.grails.org[Application
 
 [source,bash]
 ----
-curl -O start.grails.org/myApp.zip -d version=3.3.3 -d profile=vue
+curl -O start.grails.org/myApp.zip -d version=4.0.1 -d profile=vue
 ----
 
 

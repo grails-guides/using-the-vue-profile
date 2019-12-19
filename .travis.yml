@@ -2,7 +2,7 @@ cache:
   directories:
   - "$HOME/.gradle"
 jdk:
-- oraclejdk8
+- openjdk8
 addons:
   chrome: stable
   firefox: latest

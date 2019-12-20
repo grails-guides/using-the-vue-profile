@@ -8,11 +8,11 @@ addons:
   firefox: latest
 jobs:
   include:
-#    - stage: tests
-#      script:
-#        - cd complete
-#        - ./runtests.sh
-#        - cd ..
+    - stage: tests
+      script:
+        - cd complete
+        - ./runtests.sh
+        - cd ..
     - stage: build-guide
       script: ./travis-build.sh
     - stage: republish-guides

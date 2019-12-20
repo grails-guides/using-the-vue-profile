@@ -1,0 +1,31 @@
+#!/bin/bash
+set -e
+EXIT_STATUS=0
+
+start=`date +%s`
+
+./gradlew server:check --console=plain || EXIT_STATUS=$?
+
+if [ $EXIT_STATUS -ne 0 ]; then
+  exit $EXIT_STATUS
+fi
+
+echo "Starting client and server"
+./gradlew bootRun -parallel --console=plain &
+PID1=$!
+
+echo "Waiting 40 seconds  for client and server to start"
+sleep 40
+
+./gradlew -Dgeb.env=chromeHeadless --rerun-tasks functional-tests:test --console=plain || EXIT_STATUS=$?
+
+if [ $EXIT_STATUS -ne 0 ]; then
+  exit $EXIT_STATUS
+fi
+
+killall -9 java
+killall node
+
+end=`date +%s`
+runtime=$((end-start))
+echo "execution took $runtime seconds"

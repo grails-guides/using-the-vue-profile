@@ -1,0 +1,47 @@
+plugins {
+    id "com.github.erdi.webdriver-binaries" version "2.1"
+    id 'groovy'
+}
+
+ext {
+    spockVersion = '1.3-groovy-2.5'
+    gebVersion = '3.2'
+    seleniumVersion = '3.141.59'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile "org.spockframework:spock-core:$spockVersion"
+    compile "org.gebish:geb-spock:$gebVersion"
+    testCompile "org.seleniumhq.selenium:htmlunit-driver:2.35.1"
+    testRuntime 'net.sourceforge.htmlunit:htmlunit:2.35.0'
+    testRuntime "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
+    testCompile "org.seleniumhq.selenium:selenium-remote-driver:$seleniumVersion"
+    testCompile "org.seleniumhq.selenium:selenium-support:$seleniumVersion"
+    testCompile "org.seleniumhq.selenium:selenium-api:$seleniumVersion"
+}
+
+
+webdriverBinaries {
+    chromedriver '78.0.3904.105'
+}
+
+tasks.withType(Test) {
+    systemProperty "geb.env", System.getProperty('geb.env')
+    systemProperty "geb.build.reportsDir", reporting.file("geb/integrationTest")
+    systemProperty "webdriver.chrome.driver", System.getProperty('webdriver.chrome.driver')
+    systemProperty "webdriver.gecko.driver", System.getProperty('webdriver.gecko.driver')
+}
+
+
+
+tasks.withType(Test) {
+    systemProperty "geb.env", System.getProperty('geb.env')
+    testLogging {
+        events "passed", "skipped", "failed"
+        exceptionFormat 'full'
+    }
+}

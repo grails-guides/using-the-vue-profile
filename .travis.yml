@@ -1,6 +1,7 @@
 cache:
   directories:
   - "$HOME/.gradle"
+language: node_js
 jdk:
 - openjdk8
 addons:

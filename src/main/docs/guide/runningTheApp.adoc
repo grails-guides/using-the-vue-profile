@@ -10,7 +10,7 @@ This will start the Grails application, which will be available at `http://local
 [source,bash]
 .in another terminal
 ----
-./gradlew client:start
+./gradlew client:serve
 ----
 
 This will start the dev server for the Vue application, which will be available at `http://localhost:3000`.

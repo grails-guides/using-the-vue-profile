@@ -1,3 +1,11 @@
-# [Using the Vue Profile](http://guides.grails.org/using-the-vue-profile/guide/index.html)
+# Using the Vue.js Grails Profile
 
-[![Build Status](https://travis-ci.org/grails-guides/using-the-vue-profile.svg?branch=master)](https://travis-ci.org/grails-guides/using-the-vue-profile)
+This repository contains the worked sample app for the [Using the Vue.js Grails Profile](https://grails.apache.org/guides/using-the-vue-profile/4/guide/index.html) guide on the Apache Grails site.
+
+## Run the example
+
+`./gradlew bootRun`
+
+## Maintained at apache/grails-static-website
+
+The guide narrative is maintained at https://github.com/apache/grails-static-website. Changes to the guide content go there; this repo holds the worked sample app only.
